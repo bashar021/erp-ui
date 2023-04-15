@@ -8,7 +8,9 @@ import Profile from "./routes/Profile"
 import Navbar from './components/navbar';
 import React from 'react';
 import './App.css';
+
 import Today_circular from './components/Today_circular.js'
+import Header from './components/Header.js'
 function App() {
   return (
     <>
@@ -19,6 +21,7 @@ function App() {
       <Route path="/profile" element={<Profile />}/>
       <Route path="/placement" element={< Placements/>}/>
     </Routes> */}
+    <Header></Header>
     <Today_circular></Today_circular>
     <Navbar/>
    
