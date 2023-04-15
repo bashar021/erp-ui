@@ -11,6 +11,7 @@ import './App.css';
 
 import Today_circular from './components/Today_circular.js'
 import Header from './components/Header.js'
+import Attendence_chart from './components/Attendence_chart';
 function App() {
   return (
     <>
@@ -22,7 +23,10 @@ function App() {
       <Route path="/placement" element={< Placements/>}/>
     </Routes> */}
     <Header></Header>
+   
     <Today_circular></Today_circular>
+    <Attendence_chart></Attendence_chart>
+
     <Navbar/>
    
     </>

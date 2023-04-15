@@ -1,0 +1,16 @@
+#attendence_chart_cont{
+    /* background-color: blueviolet; */
+    background-color:#f5fcf3;
+    /*  */
+    width: 55%;
+    float: right;
+    margin-right: 4%;
+}
+#attendence_chart_cont h2{
+    margin: 0px;
+    
+
+}
+#attendence_chart_box{
+
+}
