@@ -1,5 +1,5 @@
 import logo from './logo.svg';
-import {Routes,Route} from "react-router-dom"
+// import {Routes,Route} from "react-router-dom"
 import Signup from "./routes/Signup"
 import Alumni from "./routes/Alumni"
 import Fees from "./routes/Fees"
