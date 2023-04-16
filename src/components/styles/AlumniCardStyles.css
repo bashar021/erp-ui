@@ -1,13 +1,13 @@
 .alumni-card{
     height: 350px;
-    width: 250px;
+    width: 200px;
     border-radius: 5%;
     background-color: antiquewhite;
-    margin: 5px;
+    margin: 10px;
 }
 .alumni-card-image{
     height: 180px;
-    width: 250px;
+    width: 200px;
     border-radius: 5%;
 }
 .alumni-card-name{
@@ -21,6 +21,6 @@
     padding: 5px;
 }
 .alumni-card-review{
-    padding: 18px;
+    padding: 13px;
     font-size: 13px;
 }
