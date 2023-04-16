@@ -3,6 +3,10 @@
     /*  */
     width: 55%;
     float: right;
-    margin-top:-20%;
+    margin-top:-30%;
     margin-right: 4%;
+}
+.alumni-cards-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }

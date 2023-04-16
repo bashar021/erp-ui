@@ -3,9 +3,10 @@
     width: 250px;
     border-radius: 5%;
     background-color: antiquewhite;
+    margin: 5px;
 }
 .alumni-card-image{
-    height: fit-content;
+    height: 180px;
     width: 250px;
     border-radius: 5%;
 }

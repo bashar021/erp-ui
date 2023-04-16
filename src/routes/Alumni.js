@@ -5,7 +5,6 @@ import "../components/styles/AlumniStyles.css"
 function Alumni() {
   return (
     <div className="alumni-container">
-      <h1 className="alumni-heading">Our Recent Alumni</h1>
         <div className="alumni-cards-container">
          {
             AlumniCardData.map((val)=>{

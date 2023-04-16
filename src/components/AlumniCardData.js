@@ -12,34 +12,34 @@ const AlumniCardData=[
        review:"College taught me how to think creatively and to find solutions to complex problems. Those are skills that I use every day",
        companyname:"Software Developer At Amazon",
      },
-    //  {
-    //     name : "Kunal Shah",
-    //     imgsrc:"alumni1",
-    //     review:"Classic Snake game  is challenging game to play. The game rule is simple as you just need to use the arrow keys to move the Snake around.",
-    //     companyname:"Software Developer At Amazon",
-    //  },
-    //  {
-    //     name : "Sunita Verma",
-    //     imgsrc:"alumni1",
-    //     review:"Classic Snake game  is challenging game to play. The game rule is simple as you just need to use the arrow keys to move the Snake around.",
-    //     companyname:"Software Developer At Amazon",
-    //   },
-    //   {
-    //      name : "Sunita Verma",
-    //      imgsrc:"alumni1",
-    //      review:"Classic Snake game  is challenging game to play. The game rule is simple as you just need to use the arrow keys to move the Snake around.",
-    //      companyname:"Software Developer At Amazon",
-    //   },{
-    //     name : "Sunita Verma",
-    //     imgsrc:"alumni1",
-    //     review:"Classic Snake game  is challenging game to play. The game rule is simple as you just need to use the arrow keys to move the Snake around.",
-    //     companyname:"Software Developer At Amazon",
-    //   },
-    //   {
-    //      name : "Sunita Verma",
-    //      imgsrc:"alumni1",
-    //      review:"Classic Snake game  is challenging game to play. The game rule is simple as you just need to use the arrow keys to move the Snake around.",
-    //      companyname:"Software Developer At Amazon",
-    //   },
+     {
+        name : "Kunal Shah",
+        imgsrc: alumni2,
+        review:"Classic Snake game  is challenging game to play. The game rule is simple as you just need to use the arrow keys to move the Snake around.",
+        companyname:"Software Developer At Amazon",
+     },
+     {
+        name : "Sunita Verma",
+        imgsrc: alumni3,
+        review:"Classic Snake game  is challenging game to play. The game rule is simple as you just need to use the arrow keys to move the Snake around.",
+        companyname:"Software Developer At Amazon",
+      },
+      {
+         name : "Sunita Verma",
+         imgsrc: alumni4,
+         review:"Classic Snake game  is challenging game to play. The game rule is simple as you just need to use the arrow keys to move the Snake around.",
+         companyname:"Software Developer At Amazon",
+      },{
+        name : "Sunita Verma",
+        imgsrc: alumni5,
+        review:"Classic Snake game  is challenging game to play. The game rule is simple as you just need to use the arrow keys to move the Snake around.",
+        companyname:"Software Developer At Amazon",
+      },
+      {
+         name : "Sunita Verma",
+         imgsrc: alumni6,
+         review:"Classic Snake game  is challenging game to play. The game rule is simple as you just need to use the arrow keys to move the Snake around.",
+         companyname:"Software Developer At Amazon",
+      },
    ];
    export default AlumniCardData;
