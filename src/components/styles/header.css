@@ -48,3 +48,68 @@
     height: 40px;
   width: 40px;
 }
+
+
+/* designs made by bashar  */
+#cllg_logo_cont{
+    /* background-color: blue; */
+    /* width: fit-content; */
+    width: 13%;
+    height: 85%;
+    /* padding-top: 1%; */
+}
+#cllg_logo_cont img{
+    width:70%;
+    margin: auto;
+    margin-left: 12%;
+    margin-top: 5%;
+
+    
+}
+#parent_header_cont{
+    height: 200px;
+    width: 100%;
+}
+#header_2_cont{
+    width: 85%;
+    float: right;
+}
+#header_user_detail_cont{
+    padding-top: 6%;
+    padding-bottom: 1%;
+}
+#header_user_detail_cont h1{
+    padding-left: 2%;
+
+}
+#user_profile_section{
+    float: right;
+    width: 20%;
+}
+#user_profile_section img{
+    margin-left: 6%;
+}
+#student_detail{
+    background-color: rgb(240, 233, 233);
+    height: 40px;
+    width: 95%;
+    margin: auto;
+    border-radius: 25px;
+    margin-right: 5%;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+.student_detail_items{
+    display: inline-block;
+    width: 25%;
+    height: 100%;
+    /* margin-right: 5%; */
+    /* margin-left: 5%; */
+}
+.student_detail_items p{
+    text-align: center;
+    font-size: 25px;
+    /* background-color: skyblue; */
+    padding-top: 2%;
+}
+
