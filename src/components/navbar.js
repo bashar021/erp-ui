@@ -27,6 +27,10 @@ function navbar() {
             <img src={dashboard}></img>
             <p>Alumni</p>
           </button>
+          <button className='navbar-item navbar_btn'>
+            <img src={dashboard}></img>
+            <p>Alumni</p>
+          </button>
 
 
           

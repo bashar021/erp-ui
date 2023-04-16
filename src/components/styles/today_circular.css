@@ -1,6 +1,6 @@
 #today_circula_cont{
     float: right;
-    background-color: rgb(240, 244, 244);
+    /* background-color: rgb(240, 244, 244); */
     width: 25%;
     /* top: 0px; */
 }
@@ -15,7 +15,8 @@
     /* text-align: left; */
 }
 .today_circular_cont{
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
+    background-color: rgb(240, 233, 233);
   
    
     border-radius: 20px;
