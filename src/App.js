@@ -23,12 +23,10 @@ function App() {
       <Route path="/placement" element={< Placements/>}/>
     </Routes> */}
     <Header></Header>
-   
     <Today_circular></Today_circular>
-    <Attendence_chart></Attendence_chart>
-
+    {/* <Attendence_chart></Attendence_chart> */}
     <Navbar/>
-   
+    <Alumni/>
     </>
   );
 }

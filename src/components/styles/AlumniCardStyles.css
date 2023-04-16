@@ -1,0 +1,25 @@
+.alumni-card{
+    height: 350px;
+    width: 250px;
+    border-radius: 5%;
+    background-color: antiquewhite;
+}
+.alumni-card-image{
+    height: fit-content;
+    width: 250px;
+    border-radius: 5%;
+}
+.alumni-card-name{
+    font-size: 25px;
+    font-weight: 600;
+}
+.alumni-card-companyname{
+    color: darkblue;
+}
+.alumni-card-name-position-container{
+    padding: 5px;
+}
+.alumni-card-review{
+    padding: 18px;
+    font-size: 13px;
+}
