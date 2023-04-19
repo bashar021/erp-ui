@@ -1,0 +1,9 @@
+.club-container{
+    height: 380px; /* Set the container height to 400 pixels */
+    /*  */
+    width: max-content;
+    width: 55%;
+    float: right;
+    margin-top:-25%;
+    margin-right: 30%;
+}

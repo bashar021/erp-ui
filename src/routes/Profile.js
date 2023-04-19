@@ -8,7 +8,7 @@ function Profile() {
     <Header/>
     <Todaycircular/>
     <Navbar/>
-      <p> hello</p>
+      
     </div>
   )
 }
