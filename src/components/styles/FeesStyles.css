@@ -1,0 +1,46 @@
+/* Design created by Arsh */
+.fees-main{
+    height: 500px;
+        /* Set the container height to 400 pixels */
+        width: 60%;
+        float: right;
+        margin-top: -30%;
+        margin-right: 1%;
+        background-color: #C6D9FF;
+        border-radius: 5%;
+}
+
+
+#login_btn1 {
+    margin-top: 100%;
+    background-color: #537FE7;
+    font-size: 20px;
+    border-radius: 20%;
+    padding-right: 20%;
+    /* border-radius: 10px; */
+    padding-left: 6%;
+    /* padding-right: 6%; */
+    margin-left: 50%;
+}
+
+.fee-payment {
+    background-color: #276FFD;
+    width: 40%;
+    height: 80%;
+    margin-left: 50%;
+    border-radius: 5%;
+    margin-top: -50%;
+}
+
+/* .fees-text{
+    width: 30%;
+    height: 50%;
+    margin-left: 3%;
+    margin-top: 3%;
+} */
+
+.nme
+{ 
+    padding: 5%;    
+    width: 20%;   /* Padding of Paragraph Tag*/
+}
