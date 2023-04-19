@@ -43,10 +43,14 @@
     
 
 }
-.login_conts{
+/* .login_conts{
     /* display: inline-block; */
-}
+
 #gif_cont{
-    width: 50%;
     float: right;
+    width: 30%;
+    margin-right: 20%;
+}
+#gif_img{
+    max-width: 80%;
 }

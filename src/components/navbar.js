@@ -5,10 +5,8 @@ import { Link  } from 'react-router-dom'
 function navbar() {
   return (
     <div id="navbar-container">
-      {/* <p className='navbar_item_child'><img src={dashboard} alt="" /><span></span>Dashboard</p> */}
-        {/* <div id='navbar-item-container'> */}
 
-          <Link to="/attendence"> 
+          <Link to="/profile"> 
           <button  className='navbar-item navbar_btn'>
             <img src={dashboard}></img>
             <p>Dashboard</p>

@@ -1,12 +1,7 @@
 import React from 'react'
 import './styles/header.css'
 import collegelogo from "./images/collegelogo.png"
-import bell from "./images/bell.png"
-import leftarrow from "./images/left-arrow.png"
-import profilephoto from "./images/profile-photo.png"
-import downarrow from "./images/down-arrow.png"
 import user_avatar from './images/icons/avatar-40.png'
-import drop_down from './images/icons/sort-down-30.png'
 import notification_icon from './images/icons/notification-30.png'
 import calendar_icon from './images/icons/calendar-30.png'
 export default function Header() {

@@ -3,7 +3,8 @@ import logo from './logo.svg';
 import Signup from "./routes/Signup"
 import Alumni from "./routes/Alumni"
 import Fees from "./routes/Fees"
-import Placements from "./routes/Placement"
+import Review from "./routes/Review"
+import Placement from "./routes/Placement"
 import Profile from "./routes/Profile"
 import Navbar from './components/navbar';
 import React from 'react';
@@ -15,33 +16,19 @@ import Today_circular from './components/Today_circular.js'
 import Header from './components/Header.js'
 import Attendence_chart from './components/Attendence_chart';
 import Login_signup from './components/Login_signup';
-import Dashaboard from './Dashaboard';
+
 
 function App() {
-  // const scrollTopRef = useRef(null);
   return (
-  
-    // <Router>
-    //   <div>
-    //     <Dashaboard></Dashaboard>
-
-    //     <Header></Header>
-    //     <Today_circular></Today_circular>
-    //    <Routes>
-    //     {/* <Route path='/' element={<Login_signup></Login_signup>}></Route> */}
-    //     <Route path='/' element={<Attendence_chart></Attendence_chart>}></Route>
-    //     <Route path='/alumni' element={<Alumni/>}></Route>
-    //    </Routes>
-
-    //    <Navbar/>
-    //   </div>
-
-    // </Router>
     <Router>
       <div>
        <Routes>
-        <Route path='/' element={<Login_signup></Login_signup>}></Route>
-        <Route path='/dashboard' element={<Dashaboard></Dashaboard>}></Route>
+        <Route path='/' element={<Signup></Signup>}></Route>
+        <Route path='/alumni' element={<Alumni></Alumni>}></Route>
+        <Route path='/fees' element={<Fees></Fees>}></Route>
+        <Route path='/placement' element={<Placement></Placement>}></Route>
+        <Route path='/review' element={<Review></Review>}></Route>
+        <Route path='/profile' element={<Profile></Profile>}></Route>
        </Routes>
       </div>
     </Router>

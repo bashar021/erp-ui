@@ -6,6 +6,10 @@ export default function Login_signup() {
   return (
     <>
     <div id="login_cont">
+    <div className='login_conts' id='gif_cont'>
+        <img src={logingif} id='gif_img' alt=""></img>
+      </div>
+ 
       <div className='login_conts' id="form_cont">
         <h2>Login</h2>
         <p>Ready</p>
@@ -18,10 +22,7 @@ export default function Login_signup() {
 
         </div>
       </div>
-      <div className='login_conts' id='gif_cont'>
-        <img src={logingif} alt=""></img>
-      </div>
- 
+     
     </div>
     </>
 
