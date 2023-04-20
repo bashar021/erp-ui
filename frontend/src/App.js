@@ -19,7 +19,8 @@ import Attendence_chart from './components/Attendence_chart';
 import Login_signup from './components/Login_signup';
 import { Context } from './Context';
 import Meet from './routes/Meet';
-
+import Assesment from './routes/Assesment';
+import Adt_chart from './routes/adt_chart';
 function App() {
   return (
     <Context>
@@ -34,7 +35,8 @@ function App() {
         <Route path='/profile' element={<Profile></Profile>}></Route>
         <Route path='/clubs' element={<Clubs></Clubs>}></Route>
         <Route path='/schedulemeet' element={<Meet></Meet>}></Route>
-
+        <Route path='/assesment' element={<Assesment></Assesment>}></Route>
+        <Route path='/dashboard' element={<Adt_chart></Adt_chart>}></Route>
        </Routes>
       </div>
     </Router>

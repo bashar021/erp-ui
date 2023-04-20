@@ -5,7 +5,13 @@ import { Link  } from 'react-router-dom'
 function navbar() {
   return (
     <div id="navbar-container">
+          <Link to="/dashboard"> 
+          <button  className='navbar-item navbar_btn'>
+            <img src={dashboard}></img>
+            <p>Dashboard</p>
+          </button>
 
+          </Link>
           <Link to="/profile"> 
           <button  className='navbar-item navbar_btn'>
             <img src={dashboard}></img>
@@ -31,8 +37,12 @@ function navbar() {
             <p>Alumni</p>
           </button>
           </Link>
-          
-          
+          <Link to="/assesment">
+          <button className='navbar-item navbar_btn'>
+            <img src={dashboard}></img>
+            <p>Assesment</p>
+          </button>
+          </Link>
           
           
           
