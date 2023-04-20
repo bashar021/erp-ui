@@ -6,6 +6,7 @@ import Fees from "./routes/Fees"
 import Review from "./routes/Review"
 import Placement from "./routes/Placement"
 import Profile from "./routes/Profile"
+import Clubs from "./routes/Clubs.js"
 import Navbar from './components/navbar';
 import React from 'react';
 import './App.css';
@@ -29,6 +30,7 @@ function App() {
         <Route path='/placement' element={<Placement></Placement>}></Route>
         <Route path='/review' element={<Review></Review>}></Route>
         <Route path='/profile' element={<Profile></Profile>}></Route>
+        <Route path='/clubs' element={<Clubs></Clubs>}></Route>
        </Routes>
       </div>
     </Router>

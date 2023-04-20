@@ -8,7 +8,7 @@ function Profile() {
     <div>
     <Header/>
     <Navbar/>
-    
+    <div className="vh-100" style={{ backgroundColor: '#9de2ff' }}>
       <MDBContainer>
         <MDBRow className="justify-content-center">
           <MDBCol md="9" lg="7" xl="5" className="mt-5">
@@ -52,7 +52,6 @@ function Profile() {
           </MDBCol>
         </MDBRow>
       </MDBContainer>
-    <div className="vh-100" style={{ backgroundColor: '#9de2ff' }}>
     </div>
-     </div> 
+    </div>
 )}export default Profile
