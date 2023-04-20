@@ -1,0 +1,21 @@
+
+#profile-cont{
+    height: 380px;
+    
+        width: 80%;
+        height: 23%;
+
+
+        float: right;
+        margin-top: -30%;
+        margin-right: 4%;
+}
+.Profile_Image{
+    background-color: blue;
+}
+
+
+
+.vh-100{
+    
+}
