@@ -4,7 +4,12 @@ import collegelogo from "./images/collegelogo.png"
 import user_avatar from './images/icons/avatar-40.png'
 import notification_icon from './images/icons/notification-30.png'
 import calendar_icon from './images/icons/calendar-30.png'
+import { useContext } from 'react';
+import { StudentContext } from '../Context';
+
+
 export default function Header() {
+  const {authenticatedUser} = useContext(StudentContext)
   return (
     <>
     {/* done by arihant  */}
@@ -51,7 +56,7 @@ export default function Header() {
             <img src={user_avatar} alt="user" />
             {/* <img src={drop_down} alt="more" /> */}
           </div>
-          <h1>Welcome | <span>Bashar alam</span> </h1>
+          <h1>Welcome | <span>{authenticatedUser}</span> </h1>
         </div>
 
         <div id='student_detail'>

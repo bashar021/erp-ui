@@ -1,5 +1,5 @@
 .alumni-card{
-    height: 350px;
+    height: fit-content;
     width: 200px;
     border-radius: 5%;
     background-color: antiquewhite;
@@ -18,7 +18,7 @@
     color: darkblue;
 }
 .alumni-card-name-position-container{
-    padding: 5px;
+    padding: 1px;
 }
 .alumni-card-review{
     padding: 13px;

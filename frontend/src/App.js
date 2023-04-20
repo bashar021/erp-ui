@@ -17,10 +17,11 @@ import Today_circular from './components/Today_circular.js'
 import Header from './components/Header.js'
 import Attendence_chart from './components/Attendence_chart';
 import Login_signup from './components/Login_signup';
-
+import { Context } from './Context';
 
 function App() {
   return (
+    <Context>
     <Router>
       <div>
        <Routes>
@@ -34,6 +35,7 @@ function App() {
        </Routes>
       </div>
     </Router>
+    </Context>
     
   );
 }

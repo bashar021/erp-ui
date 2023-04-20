@@ -9,29 +9,17 @@ function navbar() {
           <Link to="/profile"> 
           <button  className='navbar-item navbar_btn'>
             <img src={dashboard}></img>
-            <p>Dashboard</p>
+            <p>Profile</p>
           </button>
 
           </Link>
-          <Link >
-          <button className='navbar-item navbar_btn'>
-            <img src={dashboard}></img>
-            <p>Fees</p>
-          </button>
-          </Link>
-          <Link>
-          <button className='navbar-item navbar_btn'>
-            <img src={dashboard}></img>
-            <p>Griveance</p>
-          </button>
-          </Link>
-          <Link>
+          <Link to="/clubs"> 
           <button className='navbar-item navbar_btn'>
             <img src={dashboard}></img>
             <p>Clubs</p>
           </button>
           </Link>
-          <Link>
+          <Link to="/placement">
           <button className='navbar-item navbar_btn'>
             <img src={dashboard}></img>
             <p>Placements</p>

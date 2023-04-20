@@ -1,6 +1,10 @@
 import React from 'react'
 import "./styles/AlumniCardStyles.css"
+
+
+
 const AlumniCard=(props)=> {
+  
     return (
       <div className="alumni-card">
               <img src={props.imgsrc} alt="image" className="alumni-card-image"></img>
