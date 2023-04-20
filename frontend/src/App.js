@@ -18,6 +18,7 @@ import Header from './components/Header.js'
 import Attendence_chart from './components/Attendence_chart';
 import Login_signup from './components/Login_signup';
 import { Context } from './Context';
+import Meet from './routes/Meet';
 
 function App() {
   return (
@@ -32,6 +33,8 @@ function App() {
         <Route path='/review' element={<Review></Review>}></Route>
         <Route path='/profile' element={<Profile></Profile>}></Route>
         <Route path='/clubs' element={<Clubs></Clubs>}></Route>
+        <Route path='/schedulemeet' element={<Meet></Meet>}></Route>
+
        </Routes>
       </div>
     </Router>

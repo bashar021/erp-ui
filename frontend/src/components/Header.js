@@ -6,9 +6,11 @@ import notification_icon from './images/icons/notification-30.png'
 import calendar_icon from './images/icons/calendar-30.png'
 import { useContext } from 'react';
 import { StudentContext } from '../Context';
+import { useNavigate } from 'react-router'
 
 
 export default function Header() {
+  const navigate = useNavigate()
   const {authenticatedUser} = useContext(StudentContext)
   return (
     <>
@@ -42,6 +44,7 @@ export default function Header() {
              <p>Semester 6th</p>
              <p>College </p>
           </div>
+
         </div>
     </div> */}
 
@@ -51,9 +54,11 @@ export default function Header() {
       <div id='header_2_cont'>
         <div id='header_user_detail_cont'>
           <div id='user_profile_section'>
+            <span style={{color:"blue",cursor:"pointer"}} onClick={navigate('/schedulemeet')}>Schedule Meet </span>
             <img src={calendar_icon} alt="calendar" />
             <img src={notification_icon} alt="notification" />
             <img src={user_avatar} alt="user" />
+
             {/* <img src={drop_down} alt="more" /> */}
           </div>
           <h1>Welcome | <span>{authenticatedUser}</span> </h1>
