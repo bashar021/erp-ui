@@ -1,15 +1,21 @@
-/* page creted by arsH */
 
-.Profile_story{
+#profile-cont{
     height: 380px;
-    background-color: brown;
-        /* Set the container height to 400 pixels */
+    /* background-color: brown; */
         width: 80%;
         heatlh: 23%;
+
+
         float: right;
         margin-top: -30%;
         margin-right: 4%;
 }
 .Profile_Image{
     background-color: blue;
+}
+
+
+
+.vh-100{
+    
 }
